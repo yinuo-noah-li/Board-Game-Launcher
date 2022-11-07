@@ -61,9 +61,7 @@ class TicTacToeGame {
     int play();
     int auto_player(unsigned int & x, unsigned int & y); //determines the move for auto player to win
   private:
-    // char board[dim + 1][dim + 1]; //an extra row and column are added for board labels
     std::vector<std::vector<char> > board;
-    // char ** board;
     int moves;
     char cur_player;
     bool quit; //used to check if the users quit

@@ -24,13 +24,6 @@ TicTacToeGame::TicTacToeGame()
     }
     board.push_back(v);
   }
-  // for (int i = start; i <= dim; ++i)
-  // {
-  //   for (int j = start; j <= dim; ++j)
-  //   {
-  //     board[i][j] = ' ';
-  //   }
-  // }
 }
 
 //overload the insertion operator to print the current state of the game board
